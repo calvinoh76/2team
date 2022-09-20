@@ -1,0 +1,19 @@
+
+import random
+
+att = ['이우종','김진용','손병준','이동근','김수옥','김준선','박태화','오창근']
+
+random.shuffle(att)
+print('-'*42)
+
+print ("1조 티타임;08시17분    코스; 레이크     ")
+
+print (att[0:4])
+print('-'*42)
+
+print ("2조 티타임;08시24분    코스; 마운틴    ")
+
+print (att[4:])
+print('-'*42)
+print('Shuffled by PYTHON')
+print()
